@@ -25,8 +25,7 @@ public class eCommerce_tc_1 extends AndroidBaseTest{
 	@Test(priority = 1)
 	public void FillForm_ErrorValidation() throws InterruptedException {
 		
-//		driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys("Lisenok Tim");
-//		driver.hideKeyboard();
+
 		driver.findElement(By.id("com.androidsample.generalstore:id/radioFemale")).click();
 		driver.findElement(By.id("android:id/text1")).click();
 		driver.findElement(AppiumBy.androidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Argentina\"));"));
