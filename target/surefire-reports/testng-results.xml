@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-03T07:01:53Z" name="Suite" finished-at="2023-04-03T07:03:33Z" duration-ms="99884">
+    <groups>
+      <group name="Smoke">
+        <method signature="eCommerce_Hybrid.FillForm(java.util.HashMap)[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@4983159f]" name="FillForm" class="org.lisenokacademy.eCommerce_Hybrid"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-04-03T07:01:53Z" name="End to end Framework Test" finished-at="2023-04-03T07:02:48Z" duration-ms="55016">
+      <class name="org.lisenokacademy.eCommerce_Hybrid">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@4983159f]" started-at="2023-04-03T07:01:53Z" name="ConfigureAppium" finished-at="2023-04-03T07:01:58Z" duration-ms="4877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method is-config="true" signature="preSup()[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@4983159f]" started-at="2023-04-03T07:01:58Z" name="preSup" finished-at="2023-04-03T07:01:58Z" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSup -->
+        <test-method signature="FillForm(java.util.HashMap)[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@4983159f]" started-at="2023-04-03T07:01:58Z" name="FillForm" data-provider="getData" finished-at="2023-04-03T07:02:14Z" duration-ms="16001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Tim Alisa, country=Argentina, gender=female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="preSup()[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@4983159f]" started-at="2023-04-03T07:02:14Z" name="preSup" finished-at="2023-04-03T07:02:15Z" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSup -->
+        <test-method signature="FillForm(java.util.HashMap)[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@4983159f]" started-at="2023-04-03T07:02:15Z" name="FillForm" data-provider="getData" finished-at="2023-04-03T07:02:31Z" duration-ms="15791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Tim Mahmud, country=Argentina, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="preSup()[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@4983159f]" started-at="2023-04-03T07:02:31Z" name="preSup" finished-at="2023-04-03T07:02:32Z" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSup -->
+        <test-method signature="FillForm(java.util.HashMap)[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@4983159f]" started-at="2023-04-03T07:02:32Z" name="FillForm" data-provider="getData" finished-at="2023-04-03T07:02:47Z" duration-ms="15859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Marat Smith, country=Albania, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@4983159f]" started-at="2023-04-03T07:02:47Z" name="tearDown" finished-at="2023-04-03T07:02:48Z" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.lisenokacademy.eCommerce_Hybrid -->
+    </test> <!-- End to end Framework Test -->
+    <test started-at="2023-04-03T07:02:48Z" name="Error Validation Test" finished-at="2023-04-03T07:03:19Z" duration-ms="30606">
+      <class name="org.lisenokacademy.eCommerce_tc_1">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.lisenokacademy.eCommerce_tc_1@5cdd09b1]" started-at="2023-04-03T07:02:48Z" name="ConfigureAppium" finished-at="2023-04-03T07:02:52Z" duration-ms="3829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method is-config="true" signature="preSup()[pri:0, instance:org.lisenokacademy.eCommerce_tc_1@5cdd09b1]" started-at="2023-04-03T07:02:52Z" name="preSup" finished-at="2023-04-03T07:02:53Z" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSup -->
+        <test-method signature="FillForm_ErrorValidation()[pri:1, instance:org.lisenokacademy.eCommerce_tc_1@5cdd09b1]" started-at="2023-04-03T07:02:53Z" name="FillForm_ErrorValidation" finished-at="2023-04-03T07:03:00Z" duration-ms="7327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_ErrorValidation -->
+        <test-method is-config="true" signature="preSup()[pri:0, instance:org.lisenokacademy.eCommerce_tc_1@5cdd09b1]" started-at="2023-04-03T07:03:00Z" name="preSup" finished-at="2023-04-03T07:03:01Z" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSup -->
+        <test-method signature="FillForm_PositiveFlow()[pri:2, instance:org.lisenokacademy.eCommerce_tc_1@5cdd09b1]" started-at="2023-04-03T07:03:01Z" name="FillForm_PositiveFlow" finished-at="2023-04-03T07:03:19Z" duration-ms="17640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm_PositiveFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.lisenokacademy.eCommerce_tc_1@5cdd09b1]" started-at="2023-04-03T07:03:19Z" name="tearDown" finished-at="2023-04-03T07:03:19Z" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.lisenokacademy.eCommerce_tc_1 -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2023-04-03T07:03:19Z" name="IOS Test" finished-at="2023-04-03T07:03:33Z" duration-ms="13631">
+      <class name="org.lisenokacademy.IOSBasics">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.lisenokacademy.IOSBasics@1b2c4efb]" started-at="2023-04-03T07:03:19Z" name="ConfigureAppium" finished-at="2023-04-03T07:03:27Z" duration-ms="8253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="IOSBasicsTest()[pri:0, instance:org.lisenokacademy.IOSBasics@1b2c4efb]" started-at="2023-04-03T07:03:27Z" name="IOSBasicsTest" finished-at="2023-04-03T07:03:32Z" duration-ms="4302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IOSBasicsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.lisenokacademy.IOSBasics@1b2c4efb]" started-at="2023-04-03T07:03:32Z" name="tearDown" finished-at="2023-04-03T07:03:33Z" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.lisenokacademy.IOSBasics@1b2c4efb]" started-at="2023-04-03T07:03:33Z" name="tearDown" finished-at="2023-04-03T07:03:33Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.lisenokacademy.IOSBasics -->
+    </test> <!-- IOS Test -->
+  </suite> <!-- Suite -->
+</testng-results>

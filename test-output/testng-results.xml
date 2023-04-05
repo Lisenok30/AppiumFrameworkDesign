@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60195" started-at="2023-04-02T21:41:28Z" finished-at="2023-04-02T21:42:29Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="eCommerce_Hybrid.FillForm(java.util.HashMap)[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@6200f9cb]" name="FillForm" class="org.lisenokacademy.eCommerce_Hybrid"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="End to end Framework Test" duration-ms="59436" started-at="2023-04-02T21:41:28Z" finished-at="2023-04-02T21:42:28Z">
+      <class name="org.lisenokacademy.eCommerce_Hybrid">
+        <test-method status="PASS" signature="ConfigureAppium()[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@6200f9cb]" name="ConfigureAppium" is-config="true" duration-ms="6382" started-at="2023-04-02T21:41:28Z" finished-at="2023-04-02T21:41:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method status="PASS" signature="preSup()[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@6200f9cb]" name="preSup" is-config="true" duration-ms="852" started-at="2023-04-02T21:41:35Z" finished-at="2023-04-02T21:41:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSup -->
+        <test-method status="PASS" signature="FillForm(java.util.HashMap)[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@6200f9cb]" name="FillForm" duration-ms="16565" started-at="2023-04-02T21:41:36Z" data-provider="getData" finished-at="2023-04-02T21:41:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Tim Alisa, country=Argentina, gender=female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method status="PASS" signature="preSup()[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@6200f9cb]" name="preSup" is-config="true" duration-ms="840" started-at="2023-04-02T21:41:52Z" finished-at="2023-04-02T21:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSup -->
+        <test-method status="PASS" signature="FillForm(java.util.HashMap)[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@6200f9cb]" name="FillForm" duration-ms="16815" started-at="2023-04-02T21:41:53Z" data-provider="getData" finished-at="2023-04-02T21:42:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Tim Mahmud, country=Argentina, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method status="PASS" signature="preSup()[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@6200f9cb]" name="preSup" is-config="true" duration-ms="752" started-at="2023-04-02T21:42:10Z" finished-at="2023-04-02T21:42:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSup -->
+        <test-method status="PASS" signature="FillForm(java.util.HashMap)[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@6200f9cb]" name="FillForm" duration-ms="16373" started-at="2023-04-02T21:42:11Z" data-provider="getData" finished-at="2023-04-02T21:42:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Marat Smith, country=Albania, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.lisenokacademy.eCommerce_Hybrid@6200f9cb]" name="tearDown" is-config="true" duration-ms="528" started-at="2023-04-02T21:42:27Z" finished-at="2023-04-02T21:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.lisenokacademy.eCommerce_Hybrid -->
+    </test> <!-- End to end Framework Test -->
+    <test name="Error Validation Test" duration-ms="3" started-at="2023-04-02T21:42:28Z" finished-at="2023-04-02T21:42:28Z">
+    </test> <!-- Error Validation Test -->
+    <test name="IOS Test" duration-ms="1" started-at="2023-04-02T21:42:29Z" finished-at="2023-04-02T21:42:29Z">
+    </test> <!-- IOS Test -->
+  </suite> <!-- Suite -->
+</testng-results>
