@@ -17,11 +17,4 @@
   <class name="org.lisenokacademy.eCommerce_tc_1"/>   
     </classes>
   </test> <!-- Test -->
-
- <test thread-count="5" name="IOS Test">
-    <classes>
-        <class name="org.lisenokacademy.IOSBasics"/>
-     
-    </classes>
-  </test> <!-- Test -->
 </suite> <!-- Suite -->
