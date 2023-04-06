@@ -1,7 +1,5 @@
 package org.lisenokacademy.TestUtils;
 
-import java.sql.Driver;
-
 import org.lisenokacademy.utils.AppiumUtils;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
